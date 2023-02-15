@@ -30,7 +30,7 @@ phone_number: {
   },
 type: {
     type: String,
-    required: true,
+    required: false,
   },
 created_at: {
     type: String,
