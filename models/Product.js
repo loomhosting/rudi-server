@@ -35,7 +35,7 @@ const ProductSchema = new Schema({
       required: true,
     },
   category: {
-      type: Array
+      type: String
     },
   price:  Number,
   unit: {
