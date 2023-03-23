@@ -33,6 +33,8 @@ app.use('/api/v1/roles', require('./routes/role.routes'))
 app.use('/api/v1/auth', require('./routes/auth.routes'))
 app.use('/api/v1/banner', require('./routes/banner.routes'))
 app.use('/api/v1/school', require('./routes/school.routes'))
+app.use('/api/v1/cards', require('./routes/card.routes'))
+app.use('/api/v1/soon', require('./routes/soon.routes'))
 
 app.get('/', (req,res)=>{
   res.json({msg: 'Unauthorized path!!'})
