@@ -35,7 +35,7 @@ const SoonSchema = new Schema({
       required: true,
     },
   category: {
-      type: Array
+      type: String
     },
   price:  Number,
   unit: {
@@ -50,6 +50,10 @@ const SoonSchema = new Schema({
     type: Date,
     default: Date.now,
   },
+  id: {
+    type: Number,
+    default: Date.now(),
+  }
 });
 
 module.exports = mongoose.model("Soon", SoonSchema);

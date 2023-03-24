@@ -50,6 +50,10 @@ const ProductSchema = new Schema({
     type: Date,
     default: Date.now,
   },
+  id: {
+    type: Number,
+    default: Date.now(),
+  }
 });
 
 module.exports = mongoose.model("Product", ProductSchema);
