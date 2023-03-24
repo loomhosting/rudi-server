@@ -51,7 +51,7 @@ const ProductSchema = new Schema({
     default: Date.now,
   },
   id: {
-    type: Number,
+    type: String,
     default: Date.now(),
   }
 });
